@@ -1,0 +1,73 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled8.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOZFONhEC/MC+Ll1wKq83Pm",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/obizoba/BIZI/blob/master/REVISION%203%20SOULTIONS\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "KaeHUbVcNJZ7"
+      },
+      "source": [
+        "#To create a function that can accept two agruments name and age print them."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KBPfRQDZNFNI",
+        "outputId": "5a73acf3-46fa-4c24-bec6-bda659392338"
+      },
+      "source": [
+        "\r\n",
+        "\r\n",
+        "name = input(f\"please enter your name: \".upper())\r\n",
+        "age= int(input(f\"please enter your age: \"))\r\n",
+        "\r\n",
+        "def person():\r\n",
+        "    #name = input(f\"please enter your name: \")\r\n",
+        "    #age = input(f\"please enter your age: \")\r\n",
+        "    print(f\"Your name is {name.upper()} and you are {age}.\")\r\n",
+        "\r\n",
+        "\r\n",
+        "person()"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "PLEASE ENTER YOUR NAME: obizoba\n",
+            "please enter your age: 32\n",
+            "Your name is OBIZOBA and you are 32\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
